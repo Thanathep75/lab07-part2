@@ -85,13 +85,8 @@
 
 
     
-    if (isset($_POST["bookday"])) {
-        $bookday = $_POST["bookday"];
-        echo "<p>Booking Date: $bookday</p>";
-    }
-
-
     
+
     if (isset($_POST["partysize"])) {
         $partysize = $_POST["partysize"];
         echo "<p>Number of travellers: $partysize</p>";
